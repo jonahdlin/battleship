@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<title>Battleship</title>
+</head>
+
+<body>
+	<div id="mainContentContainer">
+		<div id="firstRow">
+			<div id="updateContainer">
+				<p id="updateText"><strong>Place your ships</strong><br>
+				Currently placing: 5<br></p>
+			</div>
+		</div>
+		<div id="secondRow">
+			<table id="shipPieces">
+				<tr id="shipPieceRow">
+					<td class="shipPiece"></td>
+					<td class="shipPiece"></td>
+					<td class="shipPiece"></td>
+					<td class="shipPiece"></td>
+					<td class="shipPiece"></td>
+				</tr>
+			</table>
+		</div>
+		<div id="thirdRow">
+			<div id="boardContainer"></div>
+			<div id="enemyBoard"></div>
+		</div>
+		<div id="fourthRow">
+			<div id="resetShipContainer" onclick="update('reset')">Reset Board</div>
+		</div>
+	</div>
+	<script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
